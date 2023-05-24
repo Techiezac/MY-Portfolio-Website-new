@@ -1,6 +1,4 @@
-@media screen (){
 
-}
 *{
     margin: 0;
     padding: 0;
@@ -114,43 +112,25 @@ p{
 }
 .gallery{
     display: flex;
-    height: 250px;
-    width: 250px;
-    text-align: center; 
-    margin-left: 180px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
     margin-top: 20px;
+    gap: 16px;
+    padding: 50px;
+
 }
 
-.g1{
-    padding: 10px;
-    border: 3px rgb(248, 137, 156) solid;
-    background-color: white;  
-    margin: 10px;
+.gallery img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 5px pink solid;
 }
-.g2{
-    padding: 10px;
-    border: 3px rgb(248, 137, 156) solid;
-    background-color: white;  
-    margin: 10px;
-}
-.g3{
-    padding: 10px;
-    border: 3px rgb(248, 137, 156) solid;
-    background-color: white;  
-    margin: 10px;
-}
-.g4{
-    padding: 10px;
-    border: 3px rgb(248, 137, 156) solid;
-    background-color: white;  
-    margin: 10px;
-}
-.g5{
-    padding: 10px;
-    border: 3px rgb(248, 137, 156) solid;
-    background-color: white;  
-    margin: 10px;
-}
+
+
 .nav-skills{
     color: #fff;
     font-size: larger;
@@ -183,29 +163,23 @@ p{
     background-color:rgb(21, 54, 54);
 }
 .projects-pics{
-    margin-top: 10px;
     display: flex;
-   margin-top: 30px;
-   margin-left: 240px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 20px;
+    gap: 16px;
+    padding: 50px;
 }
 
-.pic1 {
-    width: 300px;
+.projects-pics img{
     height: 300px;
-    border-radius: 10px;
-    padding: 5px;
-}
-.pic2{
     width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    padding: 5px;
-}
-.pic3 {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 20px;
+    border: 5px pink solid;
+
 }
 .nav-contact {
     color: #fff;
